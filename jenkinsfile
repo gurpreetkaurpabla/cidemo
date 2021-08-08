@@ -4,4 +4,10 @@ node{
         sh 'echo dummy step'
         sh 'sleep 20'
     }
+
+stage('initialization'){
+        sh 'echo dummy step'
+        sh 'sleep 20'
+}
+    
 }
