@@ -9,5 +9,9 @@ stage('initialization'){
         sh 'echo dummy step'
         sh 'sleep 20'
 }
+
+stage('notify'){
+    sh 'echo notify'
+}
     
 }
