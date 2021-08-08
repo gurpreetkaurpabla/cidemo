@@ -13,5 +13,9 @@ node{
     stage('notify'){
     sh 'echo notify'
     }
+
+    stage('success'){
+        sh 'echo sucess'
+    }
     
 }
