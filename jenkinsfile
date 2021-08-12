@@ -17,5 +17,9 @@ node{
     stage('success'){
         sh 'echo sucess'
     }
+
+    stage('Email'){
+        emailext body: '', subject: 'Jenkins demo', to: 'pablagurpreetk@gmail.com'
+    }
     
 }
